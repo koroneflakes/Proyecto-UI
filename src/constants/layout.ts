@@ -3,3 +3,6 @@ export const DESIGN_HEIGHT = 360;
 export const MIN_SCALE = 0.75;
 export const MAX_SCALE = 1.4;
 export const SHAPE_COLOR = "#000000";
+export type VerticalLayoutAnchor = "top" | "center" | "bottom";
+export const VERTICAL_LAYOUT_ANCHOR: VerticalLayoutAnchor = "center";
+export const VERTICAL_LAYOUT_OFFSET = 12;
